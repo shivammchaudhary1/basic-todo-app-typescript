@@ -11,7 +11,6 @@ const TodoInput = ({ onAdd }: TodoInputPropType) => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    //Post Request
     addTodo(title).then((res: Todo) => {
       onAdd(res);
     });
@@ -41,7 +40,3 @@ const TodoInput = ({ onAdd }: TodoInputPropType) => {
 };
 
 export default TodoInput;
-
-// e --- > onSubmit
-// e === > onChange
-// e ----> onClick

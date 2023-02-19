@@ -7,13 +7,23 @@
     },
     {
       "title": "Sleep",
-      "status": false,
+      "status": true,
       "id": 3
     },
     {
       "title": "Assignment DSA",
-      "status": false,
+      "status": true,
       "id": 4
+    },
+    {
+      "title": "Doctor Appointment",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Broadband Bill Due",
+      "status": true,
+      "id": 6
     }
   ]
 }

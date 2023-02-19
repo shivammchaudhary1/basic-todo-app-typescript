@@ -1,17 +1,10 @@
-/* * {
-  background-color: #eff9da;
-} */
-
 .App {
   text-align: center;
   width: 70%;
-  /* border: 1px solid black; */
   margin: auto;
-  /* background-color: #cbe4f9; */
 }
 
 .inputDiv {
-  /* border: 1px solid black; */
   width: 50%;
   height: 80px;
   margin: auto;
@@ -22,7 +15,6 @@
 
 .inputBox {
   margin: 10px;
-  /* padding: 100px 0 -20px 0; */
   text-align: center;
   align-items: center;
   font-size: large;
@@ -38,15 +30,9 @@
   padding: 3%;
 }
 .todoItemChild {
-  /* border: 1px solid black;
-  display: flex;
-  margin-top: 10px;
-  justify-content: space-evenly;
-  background-color: #e4e6e8; */
   width: 70%;
   margin: auto;
   margin-top: 15px;
-  /* border: 1px solid black; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background-color: #cdf5f6;
@@ -54,7 +40,7 @@
   padding: 2%;
   border-radius: 10px;
 }
-/* //addTodo Button */
+
 .button-21 {
   align-items: center;
   appearance: none;

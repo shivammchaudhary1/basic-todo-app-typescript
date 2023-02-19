@@ -4,23 +4,8 @@ import { Todo } from "../constant";
 import TodoInput from "./TodoInput";
 import TodoItem from "./TodoItem";
 
-//type here is the inner structure
-// type Todo = {
-//   id: number;
-//   title: string;
-//   status: boolean;
-// };
-
-// let dummy = [
-//   {
-//     id: 1,
-//     title: "eat",
-//     status: false,
-//   },
-// ];
-
 const TodoApp = () => {
-  const [todos, setTodos] = useState<Todo[]>([]); // useState<Object[]> this is outer struture array of object
+  const [todos, setTodos] = useState<Todo[]>([]);
   const [change, setChange] = useState<boolean>(false);
 
   const onAdd = (newTodo: Todo) => {
@@ -33,7 +18,6 @@ const TodoApp = () => {
 
   useEffect(() => {
     getTodo().then((res) => {
-      //   console.log(res);
       setTodos(res);
     });
   }, [change]);

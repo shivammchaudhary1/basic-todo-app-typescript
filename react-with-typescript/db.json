@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "Code",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Sleep",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "Assignment DSA",
+      "status": false,
+      "id": 4
+    }
+  ]
+}

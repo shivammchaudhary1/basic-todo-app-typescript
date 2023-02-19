@@ -1,0 +1,187 @@
+/* * {
+  background-color: #eff9da;
+} */
+
+.App {
+  text-align: center;
+  width: 70%;
+  /* border: 1px solid black; */
+  margin: auto;
+  /* background-color: #cbe4f9; */
+}
+
+.inputDiv {
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.inputBox {
+  margin: 10px;
+  /* padding: 100px 0 -20px 0; */
+  text-align: center;
+  align-items: center;
+  font-size: large;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 10px;
+  padding-top: 5px 5px 5px 5px;
+}
+.todoItem {
+  margin-top: 50px;
+  background-color: #eff9da;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 3%;
+}
+.todoItemChild {
+  /* border: 1px solid black;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  background-color: #e4e6e8; */
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #cdf5f6;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 2%;
+  border-radius: 10px;
+}
+/* //addTodo Button */
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: #3eb2fd;
+  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
+}
+
+.toggleButton {
+  align-items: center;
+  appearance: none;
+  background-color: #41fd3e;
+  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.toggleButton:active,
+.toggleButton:focus {
+  outline: none;
+}
+
+.toggleButton:hover {
+  background-position: -20px -20px;
+}
+
+.toggleButton:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
+}
+
+.deleteButton {
+  align-items: center;
+  appearance: none;
+  background-color: #fb0000;
+  background-image: linear-gradient(1deg, #fd4f4f, #f31414 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.deleteButton:active,
+.deleteButton:focus {
+  outline: none;
+}
+
+.deleteButton:hover {
+  background-position: -20px -20px;
+}
+
+.deleteButton:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
+}
